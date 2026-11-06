@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Input videos
+input_videos/*
+!input_videos/.gitkeep
+
+# Generated output videos
+outputs/*
+!outputs/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
